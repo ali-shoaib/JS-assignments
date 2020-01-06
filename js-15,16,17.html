@@ -1,0 +1,26 @@
+<html>
+    <body>
+      <script>
+          var courses=[];
+          var course1=prompt("subject?");
+          var course2=prompt("subject?");
+          var course3=prompt("subject?");
+          var course4=prompt("subject?");
+          var course5=prompt("subject?");
+          courses.push(course1,course2,course3,course4,course5);
+          alert(courses);
+          
+          course1=prompt("want to edit value?",course1);
+          course2=prompt("want to edit value?",course2);
+          course3=prompt("want to edit value?",course3);
+          course4=prompt("want to edit value?",course4);
+          course5=prompt("want to edit value?",course5);
+          courses.splice(0,1,course1);
+          courses.splice(1,1,course2);
+          courses.splice(2,1,course3);
+          courses.splice(3,1,course4);
+          courses.splice(4,1,course5);
+          alert(courses);
+      </script>
+    </body>
+</html>

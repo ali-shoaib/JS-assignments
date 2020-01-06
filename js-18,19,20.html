@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            var courses=[];
+            for(var i=0;i<=4;i++){
+                var courseN=prompt("enter any subject?");
+                courses.push(courseN);
+            }
+            alert(courses);
+            for(i=0;i<=4;i++){
+                courses[i]=prompt("want to edit courses?",courses[i]);
+                courses.splice(courses[i],courses[i]);
+            }
+            alert(courses);
+        </script>
+    </body>
+</html>

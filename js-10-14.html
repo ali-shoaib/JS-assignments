@@ -1,0 +1,35 @@
+<body>
+    <body>
+        <script>
+            //Calculator
+            var num1=+prompt("enter a number:");
+            var num2=+prompt("enter another number:");
+            var operator=prompt("enter an operator:");
+            if(operator==="+"){
+                alert(num1+num2);
+            }
+            else if(operator==="-"){
+                alert(num1-num2);
+            }
+            else if(operator==="*"){
+                alert(num1*num2);
+            }
+            else if(operator==="/"){
+                alert(num1/num2);
+            }
+            else if(operator==="%"){
+                alert(num1%num2);
+            }
+   
+            //Percentage Calculator
+            var maths=+prompt("enter maths marks:");
+            var physics=+prompt("enter physics marks:");
+            var urdu=+prompt("enter urdu marks:");
+            var english=+prompt("enter english marks:");
+            var chemistry=+prompt("enter chemistry marks:");
+            var obt_marks=maths+physics+urdu+english+chemistry;
+            var tot_marks=500;
+            alert(obt_marks*100/tot_marks);
+        </script>
+    </body>
+</body>
