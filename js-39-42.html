@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <script>
+            var maths=+prompt("enter marks..");
+            var urdu=+prompt("enter marks..");
+            var chemistry=+prompt("enter marks..");
+            var physics=+prompt("enter marks..");
+            var english=+prompt("enter marks ..");
+            var obtain=maths+urdu+chemistry+physics+english;
+            var total=500;
+            var percentage=obtain*100/total;
+            switch(true){
+                case (percentage>=90 && percentage<=100):
+                alert("U got an A+ grade");
+                break;
+                case (percentage>=75 && percentage<=89):
+                alert("U got an A grade");
+                break;
+                case (percentage>=60 && percentage<=74):
+                alert("U got a B grade");
+                break;
+                case (percentage>=45 && percentage<=59):
+                alert("U got a C grade");
+                break;
+                case (percentage>=30 && percentage<=44):
+                alert("U got a D grade");
+                break;
+                case (percentage>=0 && percentage<=29):
+                alert("U got a F grade");
+                break;
+            }
+        </script>
+    </body>
+</html>

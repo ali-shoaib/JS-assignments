@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <script>
+            //assignment-1
+            var txt = prompt("Enter a text:");
+            reverse(txt);
+            function reverse(txt) {
+            txt = txt.split(' ');
+            for(var i = 0; i<txt.length; i++){
+            txt[i] = txt[i][0].toUpperCase() + txt[i].substr(1);
+            }
+            console.log(txt.join(' '));
+            }
+
+            //assigment-2
+            var num = parseInt(prompt("Enter a number:"));
+            var factorize = 1;
+            for(var i = 1; i <= num; i++){
+            factorize = factorize * i;
+            }
+            console.log("Your " + num + " is = " + factorize);
+        </script>
+    </body>
+</html>

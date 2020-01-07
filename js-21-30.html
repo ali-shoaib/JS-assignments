@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script>
+            //assignment-1
+            var num=+prompt("enter a number:");
+            alert(Math.ceil(num));
+            var txt="This is a dummy text";
+            txt=txt.slice(0,num);
+            var reverse;
+            for(var i = txt.length - 1; i >= 0; i--) {
+            reverse+= txt[i];
+            }
+            alert(reverse);
+
+            //assignment-2
+            var text = prompt('Enter a text');
+            text = text.split(" ");
+            alert(text);
+            for (var i = 0; i < text.length; i++) {
+            text[i] = text[i][0].toUpperCase() + text[i].substr(1);
+            }
+            alert(text.join(" "));
+        </script>
+    </body>
+</html>
